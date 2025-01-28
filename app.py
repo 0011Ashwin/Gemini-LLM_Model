@@ -2,6 +2,7 @@ from dotenv import load_dotenv
 ## loading all the environment variables
 load_dotenv()
 
+# importing all libraries
 import streamlit as st
 import os
 import google.generativeai as genai
@@ -18,11 +19,13 @@ def get_gemini_response(question):
 
 ## initialize our streamlit app
 ## header part of web-page & text box
-st.header("Gemini LLM Application")
+st.header("Gemini Application Flash 2.O Exp")
+st.subheader("Powered by Ashwin Mehta")
 
 ## Taking input from user from user 
 input = st.text_input("Input: ", key="input")
 submit = st.button("Ask the Question")
+
 
 
 
