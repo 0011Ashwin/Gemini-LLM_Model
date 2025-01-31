@@ -65,3 +65,7 @@ if submit:
     for row in response:
         print(row)
         st.header(row)
+        
+# provide the average marks of all students
+# provide the average marks of all students class wise
+# provide the student name with second highest marks class wise
