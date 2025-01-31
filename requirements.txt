@@ -6,4 +6,5 @@
 # chromadb
 # langchain_google_genai
 # faiss-cpu
-sqllite3
+# sqllite3
+pdf2image
