@@ -4,5 +4,6 @@
 # langchain
 # PyPDF2
 # chromadb
-langchain_google_genai
-faiss-cpu
+# langchain_google_genai
+# faiss-cpu
+sqllite3
