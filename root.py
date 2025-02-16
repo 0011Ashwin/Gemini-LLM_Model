@@ -33,7 +33,7 @@ def input_image_setup(uploaded_file):
     else:
         raise FileNotFoundError("No file uploaded")
     
-##initialize our streamlit app
+##initialize our streamlit web app
 
 st.set_page_config(page_title="Gemini Health App")
 
